@@ -26,7 +26,7 @@
         android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:background="@drawable/dialog"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <TextView android:id="@+id/alertTitle"
             style="?android:attr/textAppearanceLarge"
