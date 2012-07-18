@@ -74,7 +74,7 @@
 
             <Button
                 android:id="@+id/snooze"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="5"
                 android:text="@string/alarm_alert_snooze_text" />
@@ -84,12 +84,12 @@
                 android:id="@+id/spacer"
                 android:layout_width="2dip"
                 android:layout_height="2dip"
-                android:layout_gravity="fill_horizontal"
+                android:layout_gravity="fill_vertical"
                 android:layout_weight="1"/>
 
             <Button
                 android:id="@+id/dismiss"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:text="@string/alarm_alert_dismiss_text" />
