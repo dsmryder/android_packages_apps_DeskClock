@@ -47,8 +47,8 @@
 
         <com.android.deskclock.DigitalClock
             style="@style/clock"
-            android:paddingTop="30dip"
-            android:paddingBottom="30dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="10dip"
             android:baselineAligned="true"
             android:gravity="center_vertical">
 
