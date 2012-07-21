@@ -35,7 +35,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="1dip"
@@ -54,13 +54,13 @@
 
             <TextView android:id="@+id/timeDisplay"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:textSize="64sp"
                 android:textColor="?android:attr/textColorPrimary"/>
 
             <TextView android:id="@+id/am_pm"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="?android:attr/textColorPrimary"/>
@@ -76,7 +76,7 @@
             <Button
                 android:id="@+id/snooze"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="7"
                 android:text="@string/alarm_alert_snooze_text" />
 
