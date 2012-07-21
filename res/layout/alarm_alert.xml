@@ -21,8 +21,8 @@
     android:gravity="center">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:background="@drawable/dialog"
@@ -35,7 +35,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="1dip"
@@ -53,14 +53,14 @@
             android:gravity="center_vertical">
 
             <TextView android:id="@+id/timeDisplay"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:textSize="64sp"
                 android:textColor="?android:attr/textColorPrimary"/>
 
             <TextView android:id="@+id/am_pm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="?android:attr/textColorPrimary"/>
@@ -68,15 +68,15 @@
         </com.android.deskclock.DigitalClock>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             style="@android:style/ButtonBar"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/snooze"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="7"
                 android:text="@string/alarm_alert_snooze_text" />
 
