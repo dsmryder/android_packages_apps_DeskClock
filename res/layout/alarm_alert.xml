@@ -78,6 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_weight="7"
                 android:layout_height="wrap_content"
+                android:textSize="64sp"
                 android:text="@string/alarm_alert_snooze_text" />
 
             <!-- blank stretchable view -->
